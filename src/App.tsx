@@ -68,7 +68,7 @@ function App() {
 
   return (
     <div className='App'>
-      {loading ? <LoadingSpinner /> : <>
+      {/* {loading ? <LoadingSpinner /> : <>
       <h1>Preguntas:</h1>
       <input type={'text'} onChange={(e) => setInputText(e.target.value)} onKeyDown={handleKeyDown} /><input type={'button'} value="Enviar" onClick={fetchData} />
       {response !== "" && <><h1>Repuesta:</h1><p>{response}</p></>}
@@ -76,7 +76,8 @@ function App() {
       <h1>Genera imagenes:</h1>
       <input type={'text'} onChange={(e) => setinputTextImage(e.target.value)} onKeyDown={(handleKeyDownImagen)}/><input type={'button'} value="Enviar" onClick={fetchDataImagen} />
       {responseImagen !== "" && <><h1> Imagen:</h1><img alt='' src={responseImagen} /></>}
-      </>}
+      </>} */}
+      HOLA
     </div>
   );
 }
